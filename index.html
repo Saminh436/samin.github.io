@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My Portfolio</title>
+    <style>
+
+        .header {
+            background-color: #100f0f;
+            color: #ffffff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .body1 {
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background: #000000;
+            color:#ffffff;
+            vertical-align:middle;
+            z-index: 10;
+            
+        }
+
+        .header h3 {
+            margin: 0;
+            font-size: 20px;
+        }
+
+        .nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav ul {
+            list-style: none;
+            margin: 0;
+            display: flex;
+            gap: 15px;
+        }
+
+        .nav a {
+            color: rgb(247, 247, 247);
+            text-decoration: none;
+            padding: 5px 10px;
+            transition: 0.3s;
+            position: relative;
+            z-index: 10;
+        }
+
+        .nav a:hover {
+            background-color: #624343;
+            border-radius: 5px;
+        }
+
+        .sec1 {
+            padding: 20px;
+            text-align: left;
+            transform: translateX(15%);
+            position: relative;
+            z-index: 10;
+            color:#ffffff;
+
+        }
+
+        .sec2 {
+            position: relative;
+            z-index: 10;
+        }
+
+        button {
+            background-color: #ffffff;
+            padding: 8px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .img1 {
+            display: flex;
+            align-items: center; 
+            gap: 20px; 
+            z-index: 10;
+            
+            
+        }
+
+         .image {
+            content: "";
+            width: 700px; 
+            height: auto;
+            border-radius: 5px;
+            margin-top:200px;
+            margin-left:60px;
+            transform: translateX(200%);
+            transform: translateY(-20%);
+            filter:drop-shadow(16px 16px 20px rgb(114, 48, 48)) grayscale(5%);
+
+
+            }
+
+            .sec1::before, .button2::after {
+            content: "";
+            position: absolute;
+            width: 400px;
+            height: 400px;  
+            background: #c11212;
+            border-radius: 50%;
+            filter: blur(155px);
+            top: 100px;
+            left: -40px;
+            }
+
+            .Buttons{
+            display:block;
+            }
+
+            .button1{
+            background-color:rgb(156, 255, 145);
+            font-size:20px;
+            border-color:#685151;
+            border-radius:10px;
+            transform: translateY(-500%)
+        
+            }
+
+            .button2{
+            background-color:rgb(255, 136, 0);
+            font-size:20px;
+            border-color:#685151;
+            border-radius:10px;
+            transform: translateY(-500%)
+             }
+
+             .about-achievements-container {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                gap: 50px; 
+                margin-top: 40px;
+            }
+
+            .about-me, .achievements {
+                 width: 48%;
+                 z-index: 2; 
+                 
+            }
+
+            .achievements {
+                text-align: left;
+        }
+            .rectangle {
+                align-items:left;
+                width:1550px;
+                height:500px;
+                background:#C95B0C;
+                margin:0;
+                padding:0;
+                overflow: hidden;
+                position: absolute;
+                left:-17%;
+                transform:translateY(-40%);
+                z-index: 1;
+                
+                
+
+        }
+
+            .bottom1 {
+                transform: translateY(0%);
+                min-height: 0px;
+                overflow: hidden;
+            }
+
+
+
+
+
+    </style>
+</head>
+<body class="body1">
+<div>
+    <header class="header">
+        <h3>Samin</h3>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Achievements</a></li>
+            </ul>
+        </nav>
+        <button><a href="https://github.com/Saminh436">Contact Me</button></a>
+    </div>
+    <body>
+
+    <body>
+    </header>
+    <main>
+        <section class="sec1">
+            <section class="sec2">
+            <div class="img1">
+                <div class="text">
+                    <br><br>
+                    <h3>Hi,</h3>
+                    <h1>I'm <strong><span style="color: rgb(214, 116, 41)">Samin</span></strong></h1>
+                    <p>a High School Junior at the top of my class. I plan</p>
+                    <p>to graduate high school in 2026. I am interested in</p>
+                    <p>math and science and lately I have taken an interest</p>
+                    <p>for coding.</p>
+                </div>
+
+                <img src="download.jpg" class="image">
+            </div>
+            <div>
+                <img src="" class="image2">
+            </div>
+                <div>
+                    
+                </div>
+            <div class="Buttons">
+                <button class="button1"> 
+                    Experience
+                </button>
+                    <button class="button2">
+                        Social Media
+                    </button>
+          <br><br>
+          <div class="rectangle">
+
+          </div>
+        </div>
+    </body>
+          <div class="about-achievements-container">
+            <div class="about-me">
+                <h2>About Me</h2> 
+                <p>
+                    <p></p>
+                    <p>In search of a part-time job along with my coursework </p>
+                        <p>for the sake of gaining job experience, learning </p>
+                        <p>helpful skills and making new connections.</p>
+                    <p></p>
+                    <p></p>
+                </p>  
+            </div>
+        
+            <div class="achievements">
+                <h1>Achievements</h1>
+                <p>
+                    <h5>Triple C Award</h5> 
+                    <h5>Top 10 highest Freshman averages x2</h5> 
+                    <h5>Top 10 highest Juinor averages x2</h5> 
+                    <h5></h5> 
+                </p>
+            </div>
+        </div>
+    </main>
+</html>
